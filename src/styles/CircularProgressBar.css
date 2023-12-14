@@ -1,0 +1,50 @@
+.progress-bars-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .progress-bars {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center items */
+  }
+  
+  .card {
+    margin: 0 10px 20px 10px; /* Add space around each card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .card:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .voltage-card {
+    width: 50%; /* Set width for the Voltage card to be 50% */
+  }
+  
+  .other-card {
+    width: 200px; /* Set width for other cards */
+  }
+  
+  .card-content {
+    padding: 16px;
+    text-align: center;
+  }
+  
+  .task-name {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .percentage-info {
+    position: relative;
+  }
+  .task-name{
+    font-size: medium;
+  }
